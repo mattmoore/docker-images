@@ -1,3 +1,6 @@
 # Matt's Dockerfiles
 
-- [Kafka Development](kafka-development) Kafka configured for a local developer environment.
+- [kafka-base](kafka-base) Shared base dockerfile for Kafka nodes.
+- [kafka-zookeeper](kafka-zookeeper) Zookeeper for Kafka.
+- [kafka](kafka) For spinning up individual Kafka nodes.
+- [order-processor](order-processor) Order consumer for Kafka.
